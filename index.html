@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Isabelly Zabotini - Jornada</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <a href="#sobre">Isabelly Zabotini</a>
+        </div>
+        
+        <nav class="nav-desktop">
+            <ul>
+                <li><a href="#lifetime">Conquistas</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+
+        <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+
+        <nav class="nav-mobile" id="nav-links">
+            <ul>
+                <li><a href="#lifetime">Conquistas</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        
+        <section id="sobre" class="content-section first-section">
+            <div class="container">
+                <div class="about-container">
+                    
+                    <div class="about-content animate-on-scroll">
+                        <h2>Sobre Mim</h2>
+                        <p>
+                            Sou estudante de Direito na Universidade Positivo, apaixonada pela capacidade da lei de
+                            moldar e proteger nossa sociedade. Minha jornada acadêmica é movida pelo desejo de
+                            entender a fundo as estruturas jurídicas e utilizá-las para promover a justiça.
+                        </p>
+                    </div>
+                    
+                    <div class="about-photo animate-on-scroll">
+                        <img src="perfil.jpg" alt="Foto de Isabelly Zabotini">
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="lifetime" class="content-section">
+            <div class="container"> <h2>Lifetime</h2>
+                <p class="section-description">Três momentos que definiram minha trajetória profissional e pessoal.</p>
+                
+                <div class="gallery-container">
+                    
+                    <div class="gallery-item animate-on-scroll">
+                        <img src="faculdade.jpg" alt="Foto da Faculdade">
+                        <div class="overlay-text">
+                            <h3>Faculdade</h3>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item animate-on-scroll">
+                        <img src="CNHz.jpg" alt="Foto da CNH">
+                        <div class="overlay-text">
+                            <h3>CNH</h3>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item animate-on-scroll">
+                        <img src="tecverde.png" alt="Foto do Primeiro Emprego">
+                        <div class="overlay-text">
+                            <h3>Primeiro Emprego</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="content-section animate-on-scroll">
+            <div class="container">
+                <h2>Minhas Habilidades</h2>
+                <p class="section-description">Um balanço das minhas competências técnicas e interpessoais.</p>
+
+                <div class="chart-container">
+                    <canvas id="skillsChart"></canvas>
+                </div>
+            </div>
+        </section>
+
+        <section id="valores" class="content-section animate-on-scroll">
+            <div class="container">
+                <h2>Valores Fundamentais</h2>
+                <p class="section-description">Os princípios do Grupo Volvo com os quais me identifico.</p>
+
+                <div class="values-grid">
+                
+                    <div class="value-item">
+                        <svg class="value-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <circle cx="12" cy="12" r="6"></circle>
+                            <circle cx="12" cy="12" r="2"></circle>
+                        </svg>
+                        <h3>Sucesso do cliente</h3>
+                        <p>Fazemos nossos clientes ganharem.</p>
+                    </div>
+                
+                    <div class="value-item">
+                        <svg class="value-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path
+                                d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                            </path>
+                        </svg>
+                        <h3>Paixão</h3>
+                        <p>Temos paixão pelo que fazemos.</p>
+                    </div>
+                
+                    <div class="value-item highlighted-value">
+                        <svg class="value-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                            <circle cx="8.5" cy="7" r="4"></circle>
+                            <polyline points="17 11 19 13 23 9"></polyline>
+                        </svg>
+                        <h3>Confiança</h3>
+                        <p>Confiamos uns nos outros.</p>
+                    </div>
+                
+                    <div class="value-item">
+                        <svg class="value-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="23 4 23 10 17 10"></polyline>
+                            <polyline points="1 20 1 14 7 14"></polyline>
+                            <path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"></path>
+                        </svg>
+                        <h3>Mudar</h3>
+                        <p>Mudamos para ficar à frente.</p>
+                    </div>
+                
+                    <div class="value-item">
+                        <svg class="value-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline>
+                            <polyline points="17 6 23 6 23 12"></polyline>
+                        </svg>
+                        <h3>Desempenho</h3>
+                        <p>Somos lucrativos para moldar nosso futuro.</p>
+                    </div>
+                
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <h3>Links Úteis</h3>
+                    <ul>
+                        <li><a href="#sobre">SOBRE MIM</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Redes Sociais</h3>
+                    <ul>
+                        <li><a href="https://www.linkedin.com/in/Isabellyzabotini" target="_blank">LinkedIn</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contato</h3>
+                    <ul>
+                        <li>
+                            <a href="mailto:isabellyzabotinii@gmail.com">Email</a>
+                        <li>
+                            <a href="https://wa.me/5541985382530" target="_blank">WhatsApp</a>
+                        <li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                &copy; Powered by Isabelly Zabotini 2025
+            </div>
+        </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
